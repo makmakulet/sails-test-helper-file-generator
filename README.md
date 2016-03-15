@@ -3,23 +3,10 @@ Unit test file generator for SailsJs App that uses sails-test-helper module
 
 
 ###install guide
-in your sails root directory
+in your sails application, add the following line to your package.json
 
 ```
-
-git clone https://github.com/mldgarcia14/ut-helper.git ut-helper
-
-cd ut-helper
-
-npm install
-
-add in your .sailsrc
-
-"generators": {
-  "modules": {
-    "test-file": "ut-helper"
-  }
-}
+$ npm install
 ```
 ###how to use
 > sails generate test-file controller user     // will create test/unit/controllers/UserController.test.js
