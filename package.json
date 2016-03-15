@@ -35,5 +35,3 @@
     "postinstall" : "scripts/sailsrc.js"
   }
 }
-
-}
