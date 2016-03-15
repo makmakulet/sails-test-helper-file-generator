@@ -1,4 +1,4 @@
-var sailsRc = process.cwd() + "/../.sailsrc";
+var sailsRc = process.cwd() + "/../../.sailsrc";
 
 fs = require("fs");
 fs.readFile(sailsRc, 'utf8', function (err,data) {
