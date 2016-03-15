@@ -4,6 +4,7 @@ Unit test file generator for SailsJs App that uses sails-test-helper module
 
 ###install guide
 in your sails application, add the following line to your package.json
+"sails-test-helper-file-generator": "https://github.com/makmakulet/sails-test-helper-file-generator.git" 
 
 ```
 $ npm install
