@@ -1,0 +1,34 @@
+{
+  "name": "sails-test-helper-file-generator",
+  "version": "0.10.0",
+  "description": "test file generator for sails-test-helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": {
+    "name": "makmakulet"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.6.1",
+    "merge-defaults": ">=0.1.0",
+    "inflection": "^1.7.1"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "sails-test-helper-file-generator",
+    "behavior": "overrides `sails generate ut-helper`",
+    "sailsVersion": "~0.12.0"
+  }
+}

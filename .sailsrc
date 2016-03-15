@@ -1,0 +1,7 @@
+{
+  "generators": {
+    "modules": {
+      "test-file": "sails-test-helper-file-generator"
+    }
+  }
+}
